@@ -14,12 +14,12 @@ cardInit = function () {
         type: 'list',
         name: 'cardType',
         message: color.magenta_bg('\nBasic or Cloze card\n'),
-        choices: ['basic-card', 'cloze-card', 'Exit']
+        choices: ['Create Basic Card', 'Create Cloze Card', 'Exit']
     }]).then(function (option) {
         switch (option.cardType) {
-            case 'basic-card': createBasicCard(); //calling the basic card generator function
+            case 'Create Basic Card': createBasicCard(); //calling the basic card generator function
                 break;
-            case 'cloze-card': createClozeCard(); //calling the CLoze card generator function
+            case 'Create Cloze Card': createClozeCard(); //calling the CLoze card generator function
                 break;
             case "Exit": return;
         }
