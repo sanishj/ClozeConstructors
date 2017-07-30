@@ -31,11 +31,11 @@ createBasicCard = function () {
     inquirer.prompt([{
         type: "input",
         name: 'front',
-        message: '\nEnter question ?'
+        message: color.magenta_bg('\nEnter question ?')
     }, {
         type: 'input',
         name: 'back',
-        message: '\nEnter answer '
+        message: color.magenta_bg('\nEnter answer ')
     }]).then(function (answer) {
         var answerBasic = new BasicFlashcard(answer.front, answer.back);
         basicCardArrayData.push(answerBasic);
@@ -60,11 +60,11 @@ createClozeCard = function () {
     inquirer.prompt([{
         type: "input",
         name: 'partialText',
-        message: '\nEnter the partial text of the card'
+        message: color.magenta_bg('\nEnter the partial text of the card')
     }, {
         type: 'input',
         name: 'deletedText',
-        message: '\nEnter the deleted text of the card'
+        message: color.magenta_bg('\nEnter the deleted text of the card')
     }]).then(function (answer) {
         var answerCloze = new ClozeFlashcard(answer.partialText, answer.deletedText);
         clozeCardArrayData.push(answerCloze);
