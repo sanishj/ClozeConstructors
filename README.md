@@ -4,16 +4,21 @@ Flashcard Generator Overview  This is a basic flashcard application written in N
 ## Getting started
 
 1. Open your command line (CLI) program (*e.g.*, GitBash, Terminal, etc.)
-2. Type
+
+2. Type the following command to install the required node packages
+
     ```
     npm install
     ```
-to install the required node packages
+
 3. To run the application, type 
+
     ```
     node index.js
     ```
-4. Follow the prompts
-    * `` - Create Basic Card
-    * `` - Create Cloze Card
-    * `` - Exit
+
+4. Choose one of the following prompts
+
+    * `Create Basic Card` - To create Basic Card
+    * `Create Cloze Card` - To create Cloze Card
+    * `Exit` - To Exit out of the program
