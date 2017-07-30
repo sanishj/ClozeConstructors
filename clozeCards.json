@@ -1,0 +1,42 @@
+[
+  {
+    "partialText": "The city thats known as the Big Apple",
+    "deletedText": "New York"
+  },
+  {
+    "fullText": "Test01",
+    "cloze": "Ans01"
+  },
+  {
+    "fullText": "This is a Test02",
+    "cloze": "is"
+  },
+  {
+    "fullText": "This is a test03",
+    "cloze": "not a test03",
+    "dateTime": "2017-07-29 21:43:48"
+  },
+  {
+    "fullText": "This is a Test04",
+    "dateTime": "2017-07-29 21:45:45"
+  },
+  {
+    "fullText": "This is Test05",
+    "dateTime": "2017-07-29 21:47:04"
+  },
+  {
+    "fullText": "What type of mosquitoes can bite you?",
+    "cloze": "Only female mosquitoes!",
+    "dateTime": "2017-07-29 21:52:49"
+  },
+  {
+    "fullText": "Jacuzzi is a brand name",
+    "cloze": "You can also buy Jacuzzi toilets and mattresses.",
+    "dateTime": "2017-07-29 22:22:42"
+  },
+  {
+    "fullText": "Roger Ebert and Oprah Winfrey went on a couple dates in the mid-1980s.",
+    "cloze": "It was Roger who convinced her to syndicate her talk show.",
+    "dateTime": "2017-07-29 22:24:00"
+  }
+]
